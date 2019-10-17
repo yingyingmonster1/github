@@ -19,3 +19,9 @@ git remote add origin git@github.com:<gitnanme>/<projectname>.git  --关联远�
 git push -u origin master  --把本地内容推送到远程库并整合分支
 git push origin master  --把本地master分支推送到github
 git clone <website>  --克隆远程库
+git checkout -b <branchname>  --创建并切换分支
+	=git branch dev
+	 git checkout dev
+git branch -d <branchname>  --删除远程库
+git swich -c <branchname>  --切换到新的git分支
+git swich <branchname>  --切换到已有分支
