@@ -1,6 +1,7 @@
 This is a new start of my life.
 Never too late to study.
 Go on.
+This version contain a LISENCE.
 
 
 git add <filename> --添加文件
