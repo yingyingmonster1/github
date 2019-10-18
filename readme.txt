@@ -23,4 +23,6 @@ git branch -d <branchname>  --删除远程库
 git merge <branchname>  --合并分支（删除非主分支）
 git merge --no-ff -m "message" <branchname>  --合并企且保留分支
 git stash  --把当前的工作存起来，等恢复后继续
-
+git stash list  --查看存起来的工作区
+git stash apply  --恢复存起来的工作区  git stash drop  --删除存起来的工作区
+	=git stash pop
