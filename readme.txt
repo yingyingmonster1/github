@@ -21,6 +21,6 @@ git checkout -b <branchname>  --创建并切换分支
 	 git checkout dev
 git branch -d <branchname>  --删除远程库
 git merge <branchname>  --合并分支（删除非主分支）
-git merge --no-ff <branchname>  --合并企且保留分支
+git merge --no-ff -m "message" <branchname>  --合并企且保留分支
 git stash  --把当前的工作存起来，等恢复后继续
 
