@@ -20,5 +20,3 @@ git checkout -b <branchname>  --创建并切换分支
 	=git branch dev
 	 git checkout dev
 git branch -d <branchname>  --删除远程库
-git swich -c <branchname>  --切换到新的git分支
-git swich <branchname>  --切换到已有分支
